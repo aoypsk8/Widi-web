@@ -1,0 +1,86 @@
+.body-3{
+    
+    background-color: #7aceb0;
+    height: 900px;
+    margin-top: 3%;
+    
+}
+.header-3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.body-3 h3{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    border: solid;
+    border-radius: 20px;
+    border-width: 7px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px 50px;
+}
+.profile-card {
+    background-color: rgba(222, 148, 88, 0.751);
+    border-radius: 10px;
+    margin: 20px 40px;
+    height: 400px;
+    width: 260px;
+    box-shadow: 20px 25px 10px 3px #4A6B5C;
+}
+
+.profile-card .profile-img {
+    height: 170px;
+    width: 160px;
+    position: relative;
+    left: 18%;
+    margin-top: -90px;
+    border-radius: 100%;
+    border: solid;
+    border-width: 5px;
+    color: #C5E1DA;
+}
+.container .profile-card:hover{
+    background-color: #BA545C;
+    transition-duration: 1.5s;
+    transform: scale(1.05);
+}
+.profile-card h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.profile-card p {
+    padding: 10px;
+    color: black;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-around;
+    height: 15%;
+    margin-top: 11%;
+    background-color: antiquewhite;
+    position: relative;
+    top: 13%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.footer-card div a img{
+    padding: 5px;
+    height: 40px;
+    padding: 10px;
+}
+.footer-card div a img:hover{
+    transition-duration: 1.18s;
+    transform: scale(1.15);
+}

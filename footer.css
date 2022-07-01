@@ -1,0 +1,64 @@
+footer{
+    background-color: #168186;
+    height: 250px;
+    color: white;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-left{
+    display: block;
+    margin-left: -200px;
+}
+.footer-left .top{
+    padding: 30px 0px;
+}
+.footer-left .bottom .inline{
+    margin-top: 5px;
+    width: 150px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50px;
+}
+.footer-left .logo-footer img{
+    padding: 20px 25px 20px 0px;
+    height: 30px;
+}
+
+
+.footer-right{
+    display: block;
+    margin-left: -200px;
+}
+.footer-right h2{
+    padding: 30px 0px 0px;
+    
+}
+.footer-right-icon{
+    margin-top: 20px;
+}
+.footer-right .footer-right-icon .phone{
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+.footer-right .footer-right-icon .phone img{
+    height: 25px;
+}
+.footer-right .footer-right-icon .email{
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+.footer-right .footer-right-icon .email img{
+    height: 25px;
+}
+
+.bottom-footer{
+    height: 5px ;
+    width: 60%;
+    background-color: white;
+    position: relative;
+    top: -5px;
+    margin: 0px 20%;
+    border-radius: 20px;
+}

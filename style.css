@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Noto Sans Lao', sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+
+.header .logo a img {
+    height: 80px;
+    width: auto;
+}
+.header .logo a img:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+.header .logo h2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.logo span {
+    color: #40DFD1;
+}
+.left span {
+    color: white;
+}
+
+.header div ul li {
+    padding: 30px 30px;
+    display: inline-block;
+}
+
+.header div ul li a {
+    
+    font-size: 26px;
+    text-decoration: none;
+
+}
+
+.header div ul li a:hover {
+    border-radius: 10px;
+    height: 50px;
+    transition-duration: 0.7s;
+    background-color: #40DFD1;
+    color: green;
+    
+}
+
+/* ===================body2===========================*/
+
+.body-1 {
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/bg-2.png");
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+
+    position: relative;
+    left: 10px;
+    top: 150px;
+}
+
+.left h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.left p {
+    font-size: 20px;
+    padding: 15px 10px;
+}
+
+.button {
+    display: flex;
+
+}
+
+.button a button {
+    display: flex;
+    margin: 80px 50px 80px 10px;
+    width: 210px;
+    height: 55px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.button a button div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button a button div img {
+    margin-left: 5px;
+    height: 50px;
+    width: 40px;
+}
+
+.button a button div .apple-play {
+    padding-top: 5px;
+    height: 40px;
+}
+
+.button a button div h6 {
+    color: rgb(232, 228, 228);
+    position: relative;
+    left: 5px;
+    font-size: 103%;
+    margin-left: 13px;
+    padding: 3px 0 0 0;
+}
+
+.button a button div h3 {
+    color: rgb(232, 228, 228);
+    font-size: 150%;
+    margin-left: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.button a:hover {
+    transform: scale(1.15);
+    transition-duration: 0.8s;
+}
+.right img{
+    padding-top: 50px;
+    height: 600px;
+}
+
+.right img:hover {
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+}
+
+/*==========================================================*/
+.body-2 {
+
+    height: auto;
+}
+
+.body-2 .title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.card a {
+    margin: 50px 50px;
+    position: relative;
+    right: 15px;
+    left: 6%;
+}
+
+.card a:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.card a div {
+    box-shadow: 10px 10px 10px 3px #543B58;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    
+
+}
+
+.card a div .img-card {
+    border-top-left-radius: 25px;
+    width: 320px;
+    background-color: #40DFD1;
+    border-top-right-radius: 20px;
+    
+}
+
+.img-card img {
+    width: 300px;
+    height: 250px;
+}
+
+.card a div .text-card {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #2D8DAD;
+    padding: 10px;
+}
+
+.card a div .text-card h3 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.card a div .text-card p {
+    padding: 5px 20px;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+/*===================================================*/
+/*===================================================*/
+/*===================================================*/
+/*===================================================*/
+/*===================================================*/
+html,
+.card {
+    position: relative;
+    height: 700px;
+}
+
+.card {
+    height: 650px;
+    width: auto;
+    background: #a1e3bc;
+    font-size: 14px;
+    color: #000;
+    margin: 10px 30px;
+    padding: 0 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.swiper {
+    width: 100%;
+    height: 700px;
+    margin-top: 4%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    right: 6px;
+    display: flex;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.append-buttons {
+    text-align: center;
+}
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+/*===================================================*/
+/*===================================================*/
+/*===================================================*/
+/*===================================================*/
+/*===================================================*/
+
+.partner{
+    height: 700px;
+    
+}
+.partner .title{
+    text-align: center;
+    font-size: 30px;
+}
